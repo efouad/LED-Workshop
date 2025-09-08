@@ -4,15 +4,15 @@ An introductory Java programming workshop using a strip of Light-Emitting Diodes
 ## Overview
 This workshop uses Java to program an individually-addressible Red-Green-Blue (RGB) LED strip consisting of eight LEDs. The strip is wired to an Arduino microcontroller, which connects to a computer over USB. The software to communicate with the Arduino has already been written -- the goal here is to create different light patterns that achieve a particular effect, including
 1. Static patterns
- a. All LEDs on, single color
- b. Rainbow colors
- c. Alternating colors (odd vs. even)
- d. Fade along strip: dim to bright
+   * All LEDs on, single color
+   * Rainbow colors
+   * Alternating colors (odd vs. even)
+   * Fade along strip: dim to bright
 2. Time-varying patterns
- a. Flashing colors
- b. Wipe a color across the strip
- c. Bouncing a single color from end to end
- d. Pulsing between dim and bright
+   * Flashing colors
+   * Wipe a color across the strip
+   * Bouncing a single color from end to end
+   * Pulsing between dim and bright
 3. Your own imagination
 
 
@@ -32,6 +32,7 @@ The LED array must be connected to the Arduino with three wires:
 | 5V      | +5V       | Power       | 
 | GND     | GND       | Ground      |
 | D3      | DI        | Data In     |
+
 The arduino can power the LEDs from a standard USB connection to a computer. No additional power supply is needed.
 
 ### Firmware
